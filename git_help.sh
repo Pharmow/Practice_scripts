@@ -5,7 +5,7 @@ echo "==============================="
 
 sleep 2
 
-echo "This script is for getting git help on common git commands"
+echo "This script is for getting git help on common git commands on the terminal"
 
 echo "Select the corresponding number of the git command help you would like to see"
 
