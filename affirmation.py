@@ -1,4 +1,4 @@
-n = 10
+n = 100
 while n > 0 :
         print (n)
         print ("I will be very good in python")
