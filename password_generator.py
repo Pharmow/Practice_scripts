@@ -18,3 +18,20 @@ for number in range(1, 6):
 for symbol in range(1, 4):
   password += random.choice(symbols)
 print(password)
+
+
+password = []
+for letter in range(1, 9):
+  password.append(random.choice(letters))
+for number in range(1, 6):
+  password.append(random.choice(numbers))
+for symbol in range(1, 4):
+  password.append(random.choice(symbols))
+# print(password)
+random.shuffle(password)
+
+password_list = ""
+for character in password:
+  password_list += character
+  
+print(password_list)
