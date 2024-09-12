@@ -16,7 +16,7 @@ for number in range(0, nr_numbers):
   password += random.choice(numbers)
 for symbol in range(0, nr_symbols):
   password += random.choice(symbols)
-print(password)
+# print(password)
 
 
 password = []
